@@ -1,1 +1,1 @@
-# Visualization-of-Physical-Phenomena
+# Physical Phenomena Simulation
