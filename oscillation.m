@@ -1,4 +1,4 @@
-classdef pendulum < matlab.apps.AppBase
+classdef oscillation < matlab.apps.AppBase
 
     % Properties that correspond to app components
     properties (Access = public)
@@ -624,7 +624,7 @@ classdef pendulum < matlab.apps.AppBase
     methods (Access = public)
 
         % Construct app
-        function app = pendulum
+        function app = oscillation
 
             % Create UIFigure and components
             createComponents(app)
@@ -644,3 +644,4 @@ classdef pendulum < matlab.apps.AppBase
             delete(app.UIFigure)
         end
     end
+end
