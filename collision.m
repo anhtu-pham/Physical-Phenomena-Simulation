@@ -199,7 +199,7 @@ classdef collision < matlab.apps.AppBase
 
             % Create UIAxes
             app.UIAxes = uiaxes(app.Tab);
-            title(app.UIAxes, 'hình ảnh thí nghiệm')
+            title(app.UIAxes, 'experiment picture')
             xlabel(app.UIAxes, '')
             ylabel(app.UIAxes, '')
             zlabel(app.UIAxes, '')
