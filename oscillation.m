@@ -145,7 +145,7 @@ classdef oscillation < matlab.apps.AppBase
                 app.UIAxes.YLabel.String = "x(m)"
                 app.UIAxes.Title.String = "x(t)"
             elseif value =='v(t)'
-                 app.UIAxes.YLabel.String = "v(m/s)"
+                app.UIAxes.YLabel.String = "v(m/s)"
                 app.UIAxes.Title.String = "v(t)"
             end
         end
